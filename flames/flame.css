@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:inherit;
+}
+.hidden{
+  display:none;
+}
+
+body {
+  background-image: url(images/lovebg.jpg);
+  background-repeat: no-repeat;
+  font-family: cursive;
+  height: 100%;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(9, 10, 10);
+  font-size: 45px;
+}
+#words {
+  text-align: center;
+  color: darkmagenta;
+  font-size: 30px;
+}
+
+.inname {
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 100;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  position: relative;
+}
+.txt {
+  position: absolute;
+  width: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #555;
+  background-color: azure;
+  border: none;
+  font-family: cursive;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.submit {
+  position: absolute;
+  width: 100px;
+  left: 40%;
+  height: 35px;
+  border-radius: 25px;
+  font-family: cursive;
+  font-size: large;
+  font-style: inherit;
+  color: rgb(27, 23, 23);
+  background-color: rgb(247, 227, 165);
+  border: 2;
+}
+.again{
+  position: absolute;
+  width: 100px;
+  height: 35px;
+  left: 53.5%;
+  border-radius: 25px;
+  font-family: cursive;
+  font-size: large;
+  font-style: inherit;
+  color: rgb(27, 23, 23);
+  background-color: rgb(247, 227, 165);
+  border: 2;
+}
+
+header {
+  text-align: center;
+  font-size: 21px;
+  font-weight: bolder;
+}
+
+input,
+select,
+textarea {
+  color: deeppink;
+  border-radius: 25px;
+}
+p {
+  text-align: center;
+  padding: 95px;
+  text-decoration: maroon;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.relation {
+  text-align: center;
+  padding: 95px;
+  text-decoration: rgb(201, 29, 29);
+  font-weight: bolder;
+  font-size: 25px;
+  top: 52px;
+}
